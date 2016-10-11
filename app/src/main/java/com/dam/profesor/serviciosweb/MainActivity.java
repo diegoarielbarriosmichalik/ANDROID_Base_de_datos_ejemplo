@@ -46,10 +46,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     EditText direccion;
     TextView resultado;
 
-
-    // IP de mi Url
-    String IP = "http://frangarcia.esy.es";
-    // Rutas de los Web Services
+    String IP = "http://municipalidaddecarmendelparana.com";
     String GET = IP + "/obtener_alumnos.php";
     String GET_BY_ID = IP + "/obtener_alumno_por_id.php";
     String UPDATE = IP + "/actualizar_alumno.php";
@@ -89,14 +86,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
 
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+      /*  FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
 
     @Override
